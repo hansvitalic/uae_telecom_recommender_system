@@ -1,0 +1,136 @@
+# UAE Telecom Sector Configuration
+# Defines the 10 key sectors for risk management
+
+sectors:
+  network_infrastructure:
+    name: "Network Infrastructure"
+    description: "Core network equipment, towers, fiber optics, and connectivity infrastructure"
+    risk_factors:
+      - "Equipment failure"
+      - "Network congestion"
+      - "Infrastructure damage"
+      - "Capacity limitations"
+      - "Technology obsolescence"
+    weight: 0.15
+    
+  it_software_development:
+    name: "IT Software & Development"
+    description: "Software development, system integration, and IT infrastructure"
+    risk_factors:
+      - "Software bugs"
+      - "Integration failures"
+      - "Development delays"
+      - "Security vulnerabilities"
+      - "Scalability issues"
+    weight: 0.12
+    
+  telecom_services:
+    name: "Telecom Services"
+    description: "Voice, data, internet, and value-added services"
+    risk_factors:
+      - "Service disruptions"
+      - "Quality degradation"
+      - "Billing errors"
+      - "Service availability"
+      - "Performance issues"
+    weight: 0.13
+    
+  customer_service_delivery:
+    name: "Customer Service & Delivery"
+    description: "Customer support, service delivery, and customer experience"
+    risk_factors:
+      - "Customer dissatisfaction"
+      - "Service delivery delays"
+      - "Support quality issues"
+      - "Communication failures"
+      - "Response time delays"
+    weight: 0.10
+    
+  regulatory_compliance:
+    name: "Regulatory Compliance"
+    description: "UAE telecommunications regulations and compliance requirements"
+    risk_factors:
+      - "Regulatory violations"
+      - "License compliance"
+      - "Data protection breaches"
+      - "Audit failures"
+      - "Policy non-compliance"
+    weight: 0.11
+    
+  supply_chain_management:
+    name: "Supply Chain Management"
+    description: "Equipment procurement, vendor management, and logistics"
+    risk_factors:
+      - "Supplier delays"
+      - "Quality issues"
+      - "Cost overruns"
+      - "Vendor failures"
+      - "Logistics disruptions"
+    weight: 0.09
+    
+  cybersecurity:
+    name: "Cybersecurity"
+    description: "Information security, threat management, and data protection"
+    risk_factors:
+      - "Cyber attacks"
+      - "Data breaches"
+      - "System vulnerabilities"
+      - "Insider threats"
+      - "Compliance violations"
+    weight: 0.12
+    
+  marketing_sales:
+    name: "Marketing & Sales"
+    description: "Marketing campaigns, sales processes, and customer acquisition"
+    risk_factors:
+      - "Campaign failures"
+      - "Market competition"
+      - "Customer acquisition costs"
+      - "Brand reputation"
+      - "Sales target misses"
+    weight: 0.08
+    
+  human_resources:
+    name: "Human Resources"
+    description: "Workforce management, training, and organizational development"
+    risk_factors:
+      - "Skill gaps"
+      - "Employee turnover"
+      - "Training inadequacy"
+      - "Performance issues"
+      - "Recruitment challenges"
+    weight: 0.07
+    
+  research_development:
+    name: "Research & Development"
+    description: "Innovation projects, technology research, and development initiatives"
+    risk_factors:
+      - "Innovation failures"
+      - "Technology risks"
+      - "Research delays"
+      - "Budget overruns"
+      - "Market timing issues"
+    weight: 0.08
+
+# UAE-specific settings
+uae_settings:
+  regulatory_authority: "UAE Telecommunications Regulatory Authority (TRA)"
+  compliance_frameworks:
+    - "UAE Cyber Security Law"
+    - "UAE Data Protection Law"
+    - "TRA Telecom Regulations"
+  risk_tolerance_levels:
+    low: 0.3
+    medium: 0.6
+    high: 0.9
+  emergency_contact_authorities:
+    - "UAE National Emergency Committee"
+    - "UAE Computer Emergency Response Team (aeCERT)"
+
+# Recommendation engine settings
+recommendation_engine:
+  algorithm: "hybrid"
+  similarity_threshold: 0.7
+  max_recommendations: 10
+  update_frequency: "daily"
+  confidence_threshold: 0.8

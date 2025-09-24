@@ -1,0 +1,2 @@
+tests
+uae_telecom_recommender

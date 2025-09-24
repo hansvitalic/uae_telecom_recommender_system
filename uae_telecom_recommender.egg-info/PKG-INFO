@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: uae-telecom-recommender
+Version: 0.1.0
+Summary: Sector-aware recommender systems for project risk management in UAE telecom infrastructure
+Author: Hansel Vitalicio
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # UAE Telecom Recommender System
 
 A sophisticated, sector-aware recommender system designed specifically for project risk management in UAE telecommunications infrastructure. This modular system provides comprehensive risk assessment and actionable recommendations across 10 key telecom sectors.
