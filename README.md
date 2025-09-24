@@ -1,2 +1,3 @@
-# uae_telecom_recommender_system
-Sector‑aware recommender systems for project risk management in UAE telecom infrastructure.
+# UAE Telecom Recommender System
+
+This project aims to develop a recommender system for the UAE telecom sector.

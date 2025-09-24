@@ -1,0 +1,3 @@
+Risk ID,Risk Description,Likelihood,Impact,Mitigation Strategy
+1,Network downtime,High,Critical,Implement redundant systems
+2,Data breach,Medium,High,Enhance security protocols
