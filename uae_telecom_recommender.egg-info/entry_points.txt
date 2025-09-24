@@ -1,0 +1,2 @@
+[console_scripts]
+uae-telecom-recommender = uae_telecom_recommender.cli:main
