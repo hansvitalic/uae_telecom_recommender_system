@@ -1,6 +1,6 @@
 ---
 
-## 🇦🇪 UAE Telecom Recommender System
+## UAE Telecom Recommender System
 
 This repository contains the modular architecture, datasets, and logic for building a **risk-aware recommender system** tailored to telecom infrastructure projects in the UAE.
 
